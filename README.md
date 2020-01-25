@@ -7,8 +7,8 @@ class-04-Data Modeling :eyes: :speech_balloon:
 ### Author: Sohad Qtaitat 
 
 ### Links and Resources
-- [submission PR]()
-- [ci/cd]() (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-sohad/Data-Modeling/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-sohad/Data-Modeling/runs/408600544?check_suite_focus=true) (GitHub Actions)
 
 ### Setup
 - install the needed Dependencies JEST ESLINT and use npm run test to run it 
