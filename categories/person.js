@@ -13,7 +13,7 @@ class Persons extends DataModel {
       name: {
         required: true,
         type: 'string',
-      }
+      },
     };
   }
 }

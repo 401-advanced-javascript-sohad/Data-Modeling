@@ -8,7 +8,7 @@ describe('Categories Model', () => {
 
   beforeEach(() => {
     categories = new Categories();
-  })
+  });
 
   it('undefined missing requirements', () => {
     const schema = categories.schema;
@@ -40,7 +40,7 @@ describe('Categories Model', () => {
 
 
 
-    /////////////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -61,7 +61,7 @@ describe('Categories Model', () => {
 
 
 
-    /////////////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -82,14 +82,14 @@ describe('Categories Model', () => {
 
 
 
-    /////////////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////
 
   it('can delete() a category', () => {
     let obj = { name: 'Test Category' };
-    let obj2 = { name: 'Test Category 2' };
+    // let obj2 = { name: 'Test Category 2' };
 
     return categories.create(obj)
-      .then(record => categories.create(obj2))
+      // .then(record => categories.create(obj2))
       .then(record => categories.delete(record.id))
       .then(() => {
         Object.keys(obj).forEach(key => {

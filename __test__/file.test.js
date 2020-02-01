@@ -9,7 +9,7 @@ describe('Person model', () => {
 
   beforeEach( () => {
     persons = new Persons();
-  })
+  });
 
   it(' undefined  missing requirements', () => {
     const schema = persons.schema;
@@ -22,17 +22,17 @@ describe('Person model', () => {
     expect(persons.sanitize(testRecord)).toBeUndefined();
   });
 
-//   it('can create() a new person', () => {
-//     let obj = { name: 'sohad' };
+  //   it('can create() a new person', () => {
+  //     let obj = { name: 'sohad' };
 
-//     return persons.create(obj)
-//       .then(record => {
-//         Object.keys(obj).forEach(key => {
-//           expect(record[key]).toEqual(obj[key]);
-//         });
-//       })
-//       .catch(error => console.error('CREATE ERROR', error));
-//   });
+  //     return persons.create(obj)
+  //       .then(record => {
+  //         Object.keys(obj).forEach(key => {
+  //           expect(record[key]).toEqual(obj[key]);
+  //         });
+  //       })
+  //       .catch(error => console.error('CREATE ERROR', error));
+  //   });
 
   // it('can get() a person', () => {
   //

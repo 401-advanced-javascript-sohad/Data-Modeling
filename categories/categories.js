@@ -23,8 +23,8 @@ class Products extends DataModel {
       category_id: { required: true, type: 'string'},
       price: { type: 'number'},
       weight: { type: 'number'},
-      quantity_in_stock: { type: 'number'}
-    }
+      quantity_in_stock: { type: 'number'},
+    };
   }
 }
 
